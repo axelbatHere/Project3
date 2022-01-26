@@ -1,0 +1,145 @@
+body{
+    background-color: lightgreen;
+  }
+  h2{
+    color:whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .box {
+      position:relative;
+      box-shadow: 3px 3px 3px 3px black;
+      border-top: solid;
+      border-left:solid;
+      background-color:blanchedalmond;
+  }
+  
+  div:not(.btn-group) {
+    padding:80px;
+    border-radius: 10px;
+    margin: auto;
+    width:50%;
+    height:50px;
+  
+  }
+
+  #submitBox {
+    box-shadow: -3px -3px 3px 3px black;
+    border-right: solid;
+    background-color: cadetblue;
+  }
+
+  input {
+    height:40px;
+    border-radius: 8px;
+    padding: 5px;
+    position:absolute;
+    left:25%;
+    width:50%;
+    box-shadow: 3px 3px black;
+  }
+  
+  button{
+    background-color: gray;
+  }
+
+  
+
+  #Submit_guess {
+      position:relative;
+      width:30%;
+      height:50px;
+      color:white;
+      text-shadow: 2px 2px black;
+      box-shadow: 3px 3px black;
+  }
+
+ .box > p {
+     background-color: white;
+     position:absolute;
+     top:70%;
+     left:16%;
+     width:70%;
+     height:60px;
+     text-align:center;
+     padding-top:10px;
+     padding-bottom:10px;
+     font-size:20px;
+     border-radius: 10px;
+     border-style: solid;
+     box-shadow: 3px 3px black;
+ }
+
+ @keyframes bounceDown {
+   0% {
+     background-color:rgba(234, 238, 17, 0);
+   }
+   100% {
+    background-color:rgba(234, 238, 17, 100);
+   }
+ }
+
+ #firstStart {
+position:absolute;
+top:10%;
+display:none;
+ }
+
+#winningScreen {
+  position:absolute;
+  border-style: solid;
+  top:20%;
+  left:52%;
+  z-index: 1;
+  animation: bounceDown 2s linear;
+  animation-fill-mode: forwards;
+  height:200px;
+  text-align:center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+
+ #submitHistory {
+     background-color:white;
+     width:20%;
+    margin-bottom:30px;
+    
+    box-shadow: 3px 3px 3px 3px black;
+    
+ }
+
+ .btn-group {
+     background-color:burlywood;
+     padding:10px;
+     position:relative;
+     left:20.5%;
+     border-radius:10px;
+     width:57.5%;
+     box-shadow: 3px 3px 3px 3px black;
+     border-top: solid;
+     border-left:solid;
+ }
+
+ #submitHistory > p{
+    font-size:24px;
+    position:relative;
+    bottom:80px;
+    text-align:center;
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+    
+ }
+
+  ol {
+    position:relative;
+    bottom:90px;
+   font-size: 30px;
+   text-align:center;
+ }
+
+
+
+
+
+ 

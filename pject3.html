@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pject3.css">
+    <title>Project 3</title>
+
+  </head>
+  <body>
+    <div id="firstStart">
+      
+      </div>
+
+
+    <center><h2 class = "display-1 text-center text-white stroke">Welcome to the Guessing Game</h2></center>
+
+    <div class='box'>
+      <input id="numberInput" type='Num' placeholder="Enter a Number !">
+            <p id="textToOutput"> Type a number into the box between 1 and 100 and see if it matches the guess! 10 tries</p>
+    </div>
+
+    <div id="submitBox" style:"text-align: center">
+    <center><button class "btn" id="Submit_guess">Click Me!</button></center>
+</div>
+        <div class="btn-group">
+        <div id="submitHistory">
+          <p>Submission History</p>
+          <ol id="olist"> </ol>
+          
+        </div>        
+        <button class="btn btn-secondary" id = "reset">Reset</button>
+        <button class="btn btn-primary" id = "iquit" onclick="location.href='https://www.youtube.com/watch?v=IsS_VMzY10I'"> I quit</button> 
+      </div>
+
+    <script src = "guessing.js"></script>
+  </body>
+</html>
